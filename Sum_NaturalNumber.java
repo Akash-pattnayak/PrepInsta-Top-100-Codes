@@ -5,13 +5,28 @@ public class Sum_NaturalNumber {
   public static void main(String[] args)throws IOException {
       BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
       int sum = 0;
-      int n;
+      int Number;
+
       System.out.println("Enter the Vlaue of N:");
-      n = Integer.parseInt(input.readLine());
-      for (int i = 0; i <= n; i++) {
+      Number = Integer.parseInt(input.readLine());
+      System.out.print("sum of ");
+      for (int i = 0; i < Number; i++) {
+        
+        System.out.print(i+"+");
+
+        if(i == (Number -1))
+        {
+          i++;
+          System.out.print(i);
+        }
+        
+
+      
+      }
+      for (int i = 0; i <= Number; i++) {
         sum = sum + i;
       }
-      System.out.println("Sum of "+n +" Natural number is "+sum);
+      System.out.println("= "+sum);
       
   }  
 }
