@@ -1,4 +1,3 @@
-
 /**
  * * In this program we will create a java program to find all prime numbers between the given range.
  * *For this purpose we will ask the user to enter starting range and ending range so that all prime 
