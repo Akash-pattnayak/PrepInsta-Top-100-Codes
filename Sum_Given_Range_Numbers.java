@@ -10,7 +10,7 @@ import java.io.*;
  * ! Then, Sum of all natural numbers between 3 and 8 will be (3+4+5+6+7+8) = 33.
  */
 
-public class Sum_Given_Numbers {
+public class Sum_Given_Range_Numbers {
     public static void main(String[] args)throws IOException {
        InputStreamReader IS = new InputStreamReader(System.in);
        BufferedReader ob = new BufferedReader(IS); 
