@@ -18,10 +18,7 @@ public class Sum_NaturalNumber {
         {
           i++;
           System.out.print(i);
-        }
-        
-
-      
+        } 
       }
       for (int i = 0; i <= Number; i++) {
         sum = sum + i;
