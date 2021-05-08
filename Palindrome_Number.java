@@ -16,13 +16,13 @@ import java.io.*;
 public class Palindrome_Number {
     public static void main(String[] args)throws IOException {
         BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number: "); // Taking user input
         int number = Integer.parseInt(ob.readLine());
         int temp = number;
         int revNumber = 0;
         while (number !=0) {
             int remainder = number % 10;
-            revNumber = revNumber * 10 + remainder;
+            revNumber = revNumber * 10 + remainder; // Logic of reverse number
             number = number / 10;
         }
         if (temp == revNumber) {
