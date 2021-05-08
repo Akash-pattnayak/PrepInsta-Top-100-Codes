@@ -1,12 +1,12 @@
 import java.io.*;
 
 /**
- * ! In this article, we will simply create a program i.e. java program to find
- * the greatest of two numbers. ! We will ask the user to enter two numbers and
- * check which is greater. For this purpose, we use if-else ! statement to
- * compare both numbers.
+ * $ In this program we try to wite a code whivh can find the greatest of two numbers. 
+ * $ We will ask the user to enter two numbers and
+ * $ check which is greater. For this purpose, we use if-else ! statement to
+ * $ compare both numbers.
  */
-public class Greatest_Two_Numbers {
+public class Greatest_two_Numbers {
     public static void main(String[] args) throws IOException {
         BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the first Number");
