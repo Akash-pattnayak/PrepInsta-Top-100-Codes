@@ -11,7 +11,7 @@ public class Range_Palindrome_Number {
         int minRange = Integer.parseInt(ob.readLine());
         System.out.println("Enter the maxrange:");
         int maxRange = Integer.parseInt(ob.readLine());
-
+        System.out.print("Palidrome numbers between "+ minRange+" and "+maxRange+" are:");
         for (int i = minRange;i <= maxRange ; i++) {
             int revNumber = 0;
             int temp = i;
@@ -22,9 +22,10 @@ public class Range_Palindrome_Number {
                 n = n/10;
             }
             if (revNumber == temp) {
-                System.out.println(" "+ temp);
+                System.out.print(" "+ temp);
             }
         }
+        System.out.println(" ");
     }
 }
                 // @ if we will use i in while loop then the value of i will change.
