@@ -3,5 +3,8 @@
         "activityBar.background": "#182F47",
         "titleBar.activeBackground": "#224264",
         "titleBar.activeForeground": "#F8FAFD"
-    }
+    },
+    "java.project.sourcePaths": [
+        ""
+    ]
 }
