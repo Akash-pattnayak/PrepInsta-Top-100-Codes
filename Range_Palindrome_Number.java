@@ -4,7 +4,7 @@
 
 import java.io.*;
 
-public class Range_Reverse_Number {
+public class Range_Palindrome_Number {
     public static void main(String[] args)throws IOException {
         BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the minrange:");
