@@ -1,35 +1,37 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
-public class Sum_Digits {
+// import java.io.BufferedReader;
+// import java.io.IOException;
+// import java.io.InputStreamReader;
 
-    public static void main(String[] args) throws IOException {
-        BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Enter a number: ");
-        int Number = Integer.parseInt(ob.readLine());
-        int result = 0;
-        int revNumber = 0;
-        System.out.print("Sum of :");
-        if (Number == 0) {
-            System.out.println("Number is zero.Sum of digits not possible");
-        } else {
-            while (Number != 0) {
-                revNumber = revNumber * 10 + (Number % 10);
-                Number = Number / 10;
-            }
-            while (revNumber != 0) {
-                System.out.print(revNumber % 10);
-                result = result + (revNumber % 10);
-                revNumber = revNumber / 10;
-                if (revNumber > 0) {
-                    System.out.print(" + ");
-                }
-            }
-            System.out.println(" = " + result);
-        }
-    }
-}
+// public class Sum_Digits {
+
+//     public static void main(String[] args) throws IOException {
+//         BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
+//         System.out.println("Enter a number: ");
+//         int Number = Integer.parseInt(ob.readLine());
+//         int result = 0;
+//         int revNumber = 0;
+//         System.out.print("Sum of :");
+//         if (Number == 0) {
+//             System.out.println("Number is zero.Sum of digits not possible");
+//         } else {
+//             while (Number != 0) {
+//                 revNumber = revNumber * 10 + (Number % 10);
+//                 Number = Number / 10;
+//             }
+//             while (revNumber != 0) {
+//                 System.out.print(revNumber % 10);
+//                 result = result + (revNumber % 10);
+//                 revNumber = revNumber / 10;
+//                 if (revNumber > 0) {
+//                     System.out.print(" + ");
+//                 }
+//             }
+//             System.out.println(" = " + result);
+//         }
+//     }
+// }
 // }
 
 // public static void main(String[] args) {
@@ -61,3 +63,21 @@ public class Sum_Digits {
 // System.out.println(" = " + result);
 // ob.close();
 // }
+/**
+ * Sum_Digits
+ */
+public class Sum_Digits {
+
+    public static void main(String[] args)throws IOException {
+        BufferedReader ob = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("Enter a number: ");
+        int Number = Integer.parseInt(ob.readLine());
+        int sum = 0;
+        while (Number !=0) {
+            sum = sum + Number%10;
+            Number = Number/10;
+        }
+        System.out.println("Sum of Digits = "+ sum);
+        
+    }
+}
