@@ -7,8 +7,9 @@ public class FibonacciSeries_nth_Term {
         int term = sc.nextInt();
         int prev = 0;
         int current = 1;
-        if (term == 2) {
-            System.out.print("Fibonacci series upto "+ term +"nd terms  are:");
+        if (term > 1) {
+           if (term == 2) {
+              System.out.print("Fibonacci series upto "+ term +"nd terms  are:");
             
         } else if (term == 3) {
             
@@ -22,6 +23,10 @@ public class FibonacciSeries_nth_Term {
            int next = current + prev;
            prev = current;
            current =  next;
+        }
+           } else {
+            System.out.println("Wrong Input !! Try again");
+            System.out.println("Term value can not be less than 2");
         }
         System.out.println(" ");
         sc.close();
