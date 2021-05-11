@@ -21,9 +21,9 @@ public class Check_Automorphic_Number {
             Number = Number / 10; 
         }
         if (rev_Square == rev_Number) {
-            System.out.println("Success");
+            System.out.println("This is an automorphic number.");
         }else{
-            System.out.println("Fail");
+            System.out.println("This is not an automorphic number");
         }
         
     }
