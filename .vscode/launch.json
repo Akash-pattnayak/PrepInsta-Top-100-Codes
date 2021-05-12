@@ -1,0 +1,196 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Armstrong_Number_Given",
+            "request": "launch",
+            "mainClass": "Armstrong_Number_Given",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Abundant_Number",
+            "request": "launch",
+            "mainClass": "Check_Abundant_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Armstrong_Number",
+            "request": "launch",
+            "mainClass": "Check_Armstrong_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Automorphic_Number",
+            "request": "launch",
+            "mainClass": "Check_Automorphic_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_FriendlyPair_Number",
+            "request": "launch",
+            "mainClass": "Check_FriendlyPair_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Harshad_Number",
+            "request": "launch",
+            "mainClass": "Check_Harshad_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Leap_Year",
+            "request": "launch",
+            "mainClass": "Check_Leap_Year",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Perfect_Number",
+            "request": "launch",
+            "mainClass": "Check_Perfect_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Prime_Number",
+            "request": "launch",
+            "mainClass": "Check_Prime_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_Strong_Number",
+            "request": "launch",
+            "mainClass": "Check_Strong_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Even_Odd",
+            "request": "launch",
+            "mainClass": "Even_Odd",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial_Number",
+            "request": "launch",
+            "mainClass": "Factorial_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factors_Number",
+            "request": "launch",
+            "mainClass": "Factors_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch FibonacciSeries_nth_Term",
+            "request": "launch",
+            "mainClass": "FibonacciSeries_nth_Term",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Greatest_Three_Numbers",
+            "request": "launch",
+            "mainClass": "Greatest_Three_Numbers",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Greatest_two_Numbers",
+            "request": "launch",
+            "mainClass": "Greatest_two_Numbers",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Negative_Positive",
+            "request": "launch",
+            "mainClass": "Negative_Positive",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Palindrome_Number",
+            "request": "launch",
+            "mainClass": "Palindrome_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power_Of_Number",
+            "request": "launch",
+            "mainClass": "Power_Of_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime_Range_Number",
+            "request": "launch",
+            "mainClass": "Prime_Range_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Range_Palindrome_Number",
+            "request": "launch",
+            "mainClass": "Range_Palindrome_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Reverse_Number",
+            "request": "launch",
+            "mainClass": "Reverse_Number",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_Digits",
+            "request": "launch",
+            "mainClass": "Sum_Digits",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_Given_Range_Numbers",
+            "request": "launch",
+            "mainClass": "Sum_Given_Range_Numbers",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_N_Natural",
+            "request": "launch",
+            "mainClass": "Sum_N_Natural",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_NaturalNumber",
+            "request": "launch",
+            "mainClass": "Sum_NaturalNumber",
+            "projectName": "PrepInsta-Top-100-Codes_c32b7077"
+        }
+    ]
+}
