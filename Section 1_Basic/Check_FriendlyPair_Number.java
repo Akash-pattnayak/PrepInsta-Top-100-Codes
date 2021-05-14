@@ -37,7 +37,7 @@ public class Check_FriendlyPair_Number {
                 sumFactors_firstNumber = sumFactors_firstNumber + i;
             }
         }
-        for (int j = 1; j < firstNumber; j++) {
+        for (int j = 1; j < secondNumber; j++) {
             if(secondNumber % j ==0){
                 sumFactors_secondNumber = sumFactors_secondNumber + j;
             } 
