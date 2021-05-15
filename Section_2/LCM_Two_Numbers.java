@@ -1,5 +1,6 @@
 import java.util.*;
 
+                               //$ LCM of two numbers//
 /**
  *!  LCM is a Least Common Multiple, means LCM of two numbers is the number which is the smallest 
  *!  common multiple of both numbers. It is also referred to as the Lowest Common Multiple(LCM) 
