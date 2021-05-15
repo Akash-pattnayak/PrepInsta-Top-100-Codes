@@ -14,7 +14,7 @@ public class Power_Of_Number {
         }
         if (power == 1) {
             
-            System.out.println(power + " time "+ number +" = "+ result);
+            System.out.println(power + " time "+ number +" = "+ number);
         } else {
             
             System.out.println(power + " times "+ number +" = "+ result);
